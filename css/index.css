@@ -1,0 +1,123 @@
+body {
+  background-color: #cdcdcd;
+  margin: 0;
+  padding: 0;
+   width: 100%;
+  max-width: 640px;
+  min-width: 32px;
+  margin: 0 auto;
+ 
+}
+header {
+  width: 100%;
+  background-color: black;
+  height: 50px;
+  display: block;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  height: 30px;
+  padding-top: 10px;
+}
+
+label {
+  width: 100px;
+  float: left;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 5px 0 10px;
+  cursor: pointer;
+}
+#title {
+  float: right;
+  width: 60%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 1px 2px;
+  margin: 2px 10px;
+  text-indent: 10px;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.24),
+    0 1px 6px rgba(0, 0, 0, 0.45) inset;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.todocount,
+.donecount {
+  display: block;
+  width: 28px;
+  height: 28px;
+  float: right;
+  font-size: 22px;
+  background-color: #e6e6fa;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+}
+ol li {
+  opacity: 0.5;
+}
+li {
+  position: relative;
+  height: 32px;
+  border-left: 5px solid skyblue;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
+}
+input {
+  width: 22px;
+  height: 22px;
+  margin: 4px 10px;
+}
+p {
+  display: block;
+  position: absolute;
+  margin: 0;
+  top: 3px;
+  left: 40px;
+}
+.delete {
+  position: absolute;
+  top: 3px;
+  right: 8px;
+  text-decoration: none;
+  display: block;
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  border-radius: 14px;
+  font-size: 14px;
+  border: 6px double #ffffff;
+  background-color: red;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+.clear {
+  text-decoration: none;
+  color: red;
+  font-size: 13px;
+}
